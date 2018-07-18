@@ -18,6 +18,7 @@ public class playerDamage : MonoBehaviour {
 		if (Input.GetKeyUp (KeyCode.F)) {
 		
 			Manager.Lives -= 1;
+		
 			Debug.Log (Manager.Lives);
 		
 		}
