@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class WindRay : MonoBehaviour {
 	public float floatHeight;
-	public float 
+//	public float 
 
 	// Use this for initialization
 	void Start () {
@@ -15,9 +15,10 @@ public class WindRay : MonoBehaviour {
 	void Update () {
 
 		RaycastHit2D hit = Physics2D.Raycast (transform.position, -Vector2.up);
-		if(hit.collider != null){
-			float distance = Mathf.Abs (hit.point.y - transform.position.y);
-			float heightError = floatHeigt - distance;
-
+	    if (hit.collider != null)
+	    {
+	        float distance = Mathf.Abs(hit.point.y - transform.position.y);
+//	        float heightError = floatHeigt - distance; 
+	    }
 	}
 }
