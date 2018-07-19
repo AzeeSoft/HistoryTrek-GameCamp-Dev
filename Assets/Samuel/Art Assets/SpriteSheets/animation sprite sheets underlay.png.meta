@@ -1,0 +1,532 @@
+fileFormatVersion: 2
+guid: b091c5afb7af7c64fba88648ccb37412
+timeCreated: 1532019998
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: animation sprite sheets underlay_0
+    21300002: animation sprite sheets underlay_1
+    21300004: animation sprite sheets underlay_2
+    21300006: animation sprite sheets underlay_3
+    21300008: animation sprite sheets underlay_4
+    21300010: animation sprite sheets underlay_5
+    21300012: animation sprite sheets underlay_6
+    21300014: animation sprite sheets underlay_7
+    21300016: animation sprite sheets underlay_8
+    21300018: animation sprite sheets underlay_9
+    21300020: animation sprite sheets underlay_10
+    21300022: animation sprite sheets underlay_11
+    21300024: animation sprite sheets underlay_12
+    21300026: animation sprite sheets underlay_13
+    21300028: animation sprite sheets underlay_14
+    21300030: animation sprite sheets underlay_15
+    21300032: animation sprite sheets underlay_16
+    21300034: animation sprite sheets underlay_17
+    21300036: animation sprite sheets underlay_18
+    21300038: animation sprite sheets underlay_19
+    21300040: animation sprite sheets underlay_20
+    21300042: animation sprite sheets underlay_21
+    21300044: animation sprite sheets underlay_22
+    21300046: animation sprite sheets underlay_23
+    21300048: animation sprite sheets underlay_24
+    21300050: animation sprite sheets underlay_25
+    21300052: animation sprite sheets underlay_26
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: animation sprite sheets underlay_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 939
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animation sprite sheets underlay_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 819
+        width: 99
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animation sprite sheets underlay_2
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 818
+        width: 91
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animation sprite sheets underlay_3
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 827
+        width: 85
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animation sprite sheets underlay_4
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 818
+        width: 87
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animation sprite sheets underlay_5
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 819
+        width: 60
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animation sprite sheets underlay_6
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 822
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animation sprite sheets underlay_7
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 830
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animation sprite sheets underlay_8
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 819
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animation sprite sheets underlay_9
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 775
+        width: 256
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animation sprite sheets underlay_10
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 566
+        width: 51
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animation sprite sheets underlay_11
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 566
+        width: 52
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animation sprite sheets underlay_12
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 566
+        width: 137
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animation sprite sheets underlay_13
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 565
+        width: 131
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animation sprite sheets underlay_14
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 296
+        width: 74
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animation sprite sheets underlay_15
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 302
+        width: 51
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animation sprite sheets underlay_16
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 304
+        width: 53
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animation sprite sheets underlay_17
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 308
+        width: 51
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animation sprite sheets underlay_18
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 165
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animation sprite sheets underlay_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 45
+        width: 99
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animation sprite sheets underlay_20
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 52
+        width: 122
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animation sprite sheets underlay_21
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 55
+        width: 116
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animation sprite sheets underlay_22
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 45
+        width: 60
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animation sprite sheets underlay_23
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 48
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animation sprite sheets underlay_24
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 56
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animation sprite sheets underlay_25
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 45
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: animation sprite sheets underlay_26
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1
+        width: 256
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

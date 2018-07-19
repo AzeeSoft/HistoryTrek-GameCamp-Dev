@@ -21,8 +21,8 @@ public class spawn : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other){
 	
-	
 		if (other.CompareTag ("player")) {
+			Debug.Log ("Triggered");
 		
 			CurrentSpawnZone = this;
 				
@@ -30,9 +30,11 @@ public class spawn : MonoBehaviour {
 
 	}
 
-	static void Respawn(){
+	public static void Respawn(){
 
+		playerManager PM = GameObject.FindGameObjectWithTag ("player").GetComponent<playerManager>();
 
+		PM.Respawn (CurrentSpawnZone.SP.transform.position);
 
 	}
 }

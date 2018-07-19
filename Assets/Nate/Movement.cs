@@ -26,4 +26,9 @@ public class Movement : MonoBehaviour {
 			rb.velocity = new Vector2 (rb.velocity.x, 5);
 		}
 	}
+	void OnTriggerEnter2D(Collider2D other){
+		if (other.tag == "Lightning") {
+			Debug.Log ("Lost A Life");
+		}
+	}
 }
