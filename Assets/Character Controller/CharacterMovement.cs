@@ -13,6 +13,8 @@ public class CharacterMovement : MonoBehaviour {
 	public Animator animator;
 	public float groundCheckTolerance;
 
+    public playerManager PM;
+
 
 
 	bool iswalking = false;
@@ -63,4 +65,14 @@ public class CharacterMovement : MonoBehaviour {
 		//animator.SetBool ("Ground", Ground)
 
 	}
+
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.tag == "KillZone")
+        {
+            PM.Lives -= 1;
+            spawn.Respawn();
+        }
+
+    }
 }
