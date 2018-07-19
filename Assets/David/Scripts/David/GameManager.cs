@@ -6,13 +6,15 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
 
+	public static GameManager Instance;
+
 	public GameObject[] LivesImages;
 	public GameObject[] CollectiblesImages;
 	public GameObject CollectibleHeld;
 	public string[] CollectibleID;
 	public bool[] CollectibleStatus;
 
-	public int lives;
+	public playerManager PM;
 
 	public Sprite[] enabledCollectibleSprite;
 	public Sprite[] disabledCollectibleSprite;
@@ -28,9 +30,11 @@ public class GameManager : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
+		Instance = this;
+
 		DeathScreen.SetActive (false);
 		WinScreen.SetActive (false);
-		lives = 3;
+		PM.Lives = 3;
 
 
 		UpdateCollectiblesImages ();
@@ -55,18 +59,23 @@ public class GameManager : MonoBehaviour {
 
 		CheckLife ();
 		CheckCollectibles ();
+
+		if (Input.GetKeyDown("escape"))
+		{
+			QuitGame();
+		}
 				
 	}
 
 	void CheckLife ()
 	{
 		
-		if (lives == 0) 
+		if (PM.Lives == 0) 
 		{
 			DeathScreen.SetActive (true);
 		}
 
-		if (lives != 0) 
+		if (PM.Lives != 0) 
 		{
 			DeathScreen.SetActive (false);
 		}
@@ -93,7 +102,7 @@ public class GameManager : MonoBehaviour {
 			LivesImages [i].GetComponent<Image> ().sprite = disabledHealthSprite;
 
 		}
-		for (int j = 0; j < lives; j++) {
+		for (int j = 0; j < PM.Lives; j++) {
 			LivesImages [j].GetComponent<Image> ().sprite = enabledHealthSprite;
 		}
 	}
