@@ -35,13 +35,16 @@ public class PickupObjects : MonoBehaviour {
 
 		if (other.tag == "Dropoff" && holding != "") {
 			if (other.gameObject.GetComponent<DropoffObjects> ().acceptedObj == holding) {
+				GameManager.Instance.ItemCollected(holding);
+				GameManager.Instance.ItemDropped();
+
 				holding = "";
 				other.gameObject.GetComponent<DropoffObjects> ().Obj.SetActive (true);
-				InventoryObj.SetActive (false);
+
+
+//				InventoryObj.SetActive (false);
 				//Update GameManager Script to Change Score
 
-                GameManager.Instance.ItemCollected(holding);
-                GameManager.Instance.ItemDropped();
 			}
 		}
 	}

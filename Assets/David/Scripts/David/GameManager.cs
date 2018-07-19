@@ -50,10 +50,10 @@ public class GameManager : MonoBehaviour {
 		UpdateLifeImages ();
 		UpdateCollectiblesImages ();
 
-		if (Input.GetKeyDown (KeyCode.R)) 
-		{
-			ItemDropped ();
-		}
+		//if (Input.GetKeyDown (KeyCode.R)) 
+		//{
+		//	ItemDropped ();
+		//}
 		//=============================
 
 

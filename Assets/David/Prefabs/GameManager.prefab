@@ -61,19 +61,22 @@ MonoBehaviour:
   - {fileID: 0}
   CollectibleHeld: {fileID: 0}
   CollectibleID:
-  - A
-  - B
-  - C
+  - Artifact_A
+  - Artifact_B
+  - Artifact_C
   CollectibleStatus: 000000
-  lives: 3
+  PM: {fileID: 0}
   enabledCollectibleSprite:
-  - {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 21300000, guid: bebe9640e3fb543e7a7322fb23ec351f, type: 3}
+  - {fileID: 21300000, guid: d58770d27133b5d4caa642e67bb5a06d, type: 3}
+  - {fileID: 21300000, guid: 85ff9c99f4c644f89b59fd69f964ca5d, type: 3}
   disabledCollectibleSprite:
   - {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   - {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   - {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  enabledHealthSprite: {fileID: 21300000, guid: eed25b64fd1ca4316ae73e2a97dada9c,
+  enabledHealthSprite: {fileID: 21300000, guid: 56fbdbf976c0ae54094fe27927d25939,
     type: 3}
-  disabledHealthSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  disabledHealthSprite: {fileID: 21300000, guid: 131487c3112012941ac76f0dd76495c3,
+    type: 3}
+  DeathScreen: {fileID: 0}
+  WinScreen: {fileID: 0}
