@@ -690,6 +690,16 @@ Prefab:
       propertyPath: m_Name
       value: Wind 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 198428096978972700, guid: e38056d9e6b6446338287571dc5f039d,
+        type: 2}
+      propertyPath: randomSeed
+      value: -460335518
+      objectReference: {fileID: 0}
+    - target: {fileID: 198428096978972700, guid: e38056d9e6b6446338287571dc5f039d,
+        type: 2}
+      propertyPath: TrailModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e38056d9e6b6446338287571dc5f039d, type: 2}
   m_IsPrefabParent: 0
@@ -877,6 +887,16 @@ Prefab:
     - target: {fileID: 1225652595647396, guid: e38056d9e6b6446338287571dc5f039d, type: 2}
       propertyPath: m_Name
       value: Wind 1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 198428096978972700, guid: e38056d9e6b6446338287571dc5f039d,
+        type: 2}
+      propertyPath: randomSeed
+      value: -745522102
+      objectReference: {fileID: 0}
+    - target: {fileID: 198428096978972700, guid: e38056d9e6b6446338287571dc5f039d,
+        type: 2}
+      propertyPath: TrailModule.enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e38056d9e6b6446338287571dc5f039d, type: 2}
@@ -1259,6 +1279,11 @@ Prefab:
     - target: {fileID: 4752978115913044, guid: e38056d9e6b6446338287571dc5f039d, type: 2}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198428096978972700, guid: e38056d9e6b6446338287571dc5f039d,
+        type: 2}
+      propertyPath: TrailModule.enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e38056d9e6b6446338287571dc5f039d, type: 2}
