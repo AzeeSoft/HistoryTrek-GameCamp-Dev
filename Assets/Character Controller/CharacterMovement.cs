@@ -10,7 +10,7 @@ public class CharacterMovement : MonoBehaviour {
 	public GameObject groundcheckleft;
 	public GameObject groundcheckright;
 	private SpriteRenderer spriteRenderer;
-	private Animator animator;
+	public Animator animator;
 	public float groundCheckTolerance;
 
 
@@ -52,8 +52,7 @@ public class CharacterMovement : MonoBehaviour {
 
 		}
 
-		//animator.SetBool ("grounded", grounded);
-		//animator.SetFloat ("velocityX", Mathf.Abs (velocity.x) / maxSpeed);
+
 
 	}
 }
