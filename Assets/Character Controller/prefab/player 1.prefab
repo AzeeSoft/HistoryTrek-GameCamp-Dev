@@ -39,6 +39,10 @@ GameObject:
   - component: {fileID: 114642763306171444}
   - component: {fileID: 95137693549500302}
   - component: {fileID: 70375285825461540}
+  - component: {fileID: 114979273370207126}
+  - component: {fileID: 114279994163549072}
+  - component: {fileID: 114509823817975610}
+  - component: {fileID: 114986834946547138}
   m_Layer: 0
   m_Name: player 1
   m_TagString: Untagged
@@ -154,6 +158,35 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114279994163549072
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726215410680796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 719881a5f9f324a1c941ff4ce5106385, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 50136627164450946}
+  WindSpeed: 0.5
+  DecreaseSpeed: 3
+--- !u!114 &114509823817975610
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726215410680796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03c8d0c343a53427eb9ed1a6c39fade9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Lives: 3
+  speed: 0
+  CP: {fileID: 0}
+  Checkpoints: []
 --- !u!114 &114642763306171444
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -171,6 +204,31 @@ MonoBehaviour:
   groundcheckright: {fileID: 1122723393856350}
   animator: {fileID: 0}
   groundCheckTolerance: 0.09
+--- !u!114 &114979273370207126
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726215410680796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e03730daa31a242f8b52b0ae3ef4de2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  holding: 
+  InventoryObjs: []
+  InventoryObj: {fileID: 0}
+--- !u!114 &114986834946547138
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726215410680796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 278d9dc8914ce43ed8052e7fb4b1e0af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212953258302286974
 SpriteRenderer:
   m_ObjectHideFlags: 1
