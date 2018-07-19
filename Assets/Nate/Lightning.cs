@@ -15,7 +15,7 @@ public class Lightning : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Strike = true) {
+		if (Strike == true) {
 			LightningOn ();
 		} else {
 			StartCoroutine (LightningStrike ());
