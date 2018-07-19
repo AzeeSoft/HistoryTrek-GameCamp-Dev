@@ -24,12 +24,12 @@ public class WindStop : MonoBehaviour {
 		if (over1 == true && over2 == true) {
 
 
-			Debug.Log ("OFF");
+//			Debug.Log ("OFF");
 		} 
 
 		if (over1 == false || over2 == false) {
 			
-			Debug.Log ("ON");
+//			Debug.Log ("ON");
 
 		}
 	}
