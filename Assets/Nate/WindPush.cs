@@ -17,14 +17,18 @@ public class WindPush : MonoBehaviour {
 	void Update () {
 		
 	}
-
+	void OnTriggerEnter2D(Collider2D other){
+		if (other.tag == "Lightning") {
+			Debug.Log ("Lost A Life");
+		}
+	}
 	void OnTriggerStay2D(Collider2D other){
-		if (other.tag == "WindPipe") {
+		if (other.tag == "WindPipe" && WindOff == false) {
 			rb.velocity = new Vector2 (rb.velocity.x, rb.velocity.y + WindSpeed);
 		}
 	}
 	void OnTriggerExit2D(Collider2D other){
-		if (other.tag == "WindPipe") {
+		if (other.tag == "WindPipe" && WindOff == false) {
 			rb.velocity = new Vector2 (rb.velocity.x, rb.velocity.y - DecreaseSpeed);
 		}
 	}
