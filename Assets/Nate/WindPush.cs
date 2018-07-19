@@ -23,12 +23,12 @@ public class WindPush : MonoBehaviour {
 		}
 	}
 	void OnTriggerStay2D(Collider2D other){
-		if (other.tag == "WindPipe" && WindOff == false) {
+		if (other.tag == "WindPipe") {
 			rb.velocity = new Vector2 (rb.velocity.x, rb.velocity.y + WindSpeed);
 		}
 	}
 	void OnTriggerExit2D(Collider2D other){
-		if (other.tag == "WindPipe" && WindOff == false) {
+		if (other.tag == "WindPipe") {
 			rb.velocity = new Vector2 (rb.velocity.x, rb.velocity.y - DecreaseSpeed);
 		}
 	}
