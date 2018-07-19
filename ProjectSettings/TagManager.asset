@@ -7,7 +7,9 @@ TagManager:
   - Dropoff
   - WindPipe
   - Artifact
-  - Lightning
+  - player
+  - Ground
+  - KillZone
   layers:
   - Default
   - TransparentFX

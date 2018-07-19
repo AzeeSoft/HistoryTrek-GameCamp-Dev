@@ -9,7 +9,9 @@ public class WindStop : MonoBehaviour {
 	
 	//WindStopSides stop;
 
-	public GameObject WindPipe;
+	public GameObject DetectedWindPipe1;
+	public GameObject DetectedWindPipe2;
+
 
 	// Use this for initialization
 	void Start () {
@@ -18,18 +20,16 @@ public class WindStop : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
 		//Give WindTrigger a Variable to remember if its off or not
 
-		if (over1 == true && over2 == true) {
-
-
-//			Debug.Log ("OFF");
+		if (over1 == true && over2 == true && DetectedWindPipe1 == DetectedWindPipe2 && DetectedWindPipe1 != null && DetectedWindPipe2 != null) {
+			DetectedWindPipe1.GetComponent<BoxCollider2D> ().enabled = false;
 		} 
 
-		if (over1 == false || over2 == false) {
+		else if((over1 == false || over2 == false) && DetectedWindPipe1 != null && DetectedWindPipe2 != null){
 			
-//			Debug.Log ("ON");
+			DetectedWindPipe1.GetComponent<BoxCollider2D> ().enabled = true;
+			DetectedWindPipe2.GetComponent<BoxCollider2D> ().enabled = true;
 
 		}
 	}
