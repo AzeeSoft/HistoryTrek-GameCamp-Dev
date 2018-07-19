@@ -34,7 +34,7 @@ public class playerManager : MonoBehaviour {
 
 	}
 
-	void Respawn(Vector2 NewSpawnPosition){
+	public void Respawn(Vector2 NewSpawnPosition){
 	
 		transform.position = NewSpawnPosition;
 	
