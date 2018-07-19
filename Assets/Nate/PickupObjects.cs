@@ -30,7 +30,8 @@ public class PickupObjects : MonoBehaviour {
 		if (other.tag == "Artifact" && holding == "") {
 			holding = other.gameObject.name;
 			Destroy (other.gameObject);
-		}
+		    GameManager.Instance.ItemHeld(holding);
+        }
 
 		if (other.tag == "Dropoff" && holding != "") {
 			if (other.gameObject.GetComponent<DropoffObjects> ().acceptedObj == holding) {
@@ -38,6 +39,9 @@ public class PickupObjects : MonoBehaviour {
 				other.gameObject.GetComponent<DropoffObjects> ().Obj.SetActive (true);
 				InventoryObj.SetActive (false);
 				//Update GameManager Script to Change Score
+
+                GameManager.Instance.ItemCollected(holding);
+                GameManager.Instance.ItemDropped();
 			}
 		}
 	}
