@@ -9,12 +9,10 @@ public class MainMenuManager : MonoBehaviour {
 	public GameObject CreditsImage;
 	public Image Credits;
 	public GameObject BackImage;
-	public GameObject ControlsImage;
 
 	// Use this for initialization
 	void Start () {
 		CreditsImage.SetActive (false);
-		ControlsImage.SetActive (false);
 	}
 	
 	// Update is called once per frame
@@ -40,16 +38,9 @@ public class MainMenuManager : MonoBehaviour {
 		if (CreditsImage) {
 			CreditsImage.SetActive (false);
 		}
-		if (ControlsImage) {
-			ControlsImage.SetActive (false);
-		}
-	}
-	public void ShowControls()
-	{
-		ControlsImage.SetActive (true);
-		BackImage.SetActive (true);
 
 	}
+
 	public void RestartGame()
 	{
 		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
