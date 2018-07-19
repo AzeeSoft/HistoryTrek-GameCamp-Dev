@@ -20,16 +20,21 @@ public class GameManager : MonoBehaviour {
 	public Sprite enabledHealthSprite;
 	public Sprite disabledHealthSprite;
 
+	public GameObject DeathScreen;
+	public GameObject WinScreen;
+
 
 	// Use this for initialization
 	void Start () 
 	{
+		DeathScreen.SetActive (false);
+		WinScreen.SetActive (false);
 		lives = 3;
+
 
 		UpdateCollectiblesImages ();
 
-		//Just for testing
-		ItemHeld("A");
+		//Just for testingk
 		//=============================
 	}
 	
@@ -54,16 +59,31 @@ public class GameManager : MonoBehaviour {
 
 	void CheckLife ()
 	{
+		
 		if (lives == 0) 
 		{
-			// Show Death Screen
+			DeathScreen.SetActive (true);
+		}
+
+		if (lives != 0) 
+		{
+			DeathScreen.SetActive (false);
 		}
 			
 	}
 
 	void CheckCollectibles()
 	{
-		//Use Later
+		for (int i = 0; i < CollectiblesImages.Length; i++) {
+			if (CollectibleStatus [i]) {
+				WinScreen.SetActive (true);
+			}
+
+			if (!CollectibleStatus [i]) {
+				WinScreen.SetActive (false);
+			}
+
+		}
 	}
 
 	public void UpdateLifeImages()
@@ -115,4 +135,15 @@ public class GameManager : MonoBehaviour {
 	{
 		CollectibleHeld.SetActive (false);
 	}
+
+	public void RestartGame()
+	{
+		
+	}
+
+	public void QuitGame()
+	{
+		Application.Quit ();
+	}
+
 }
