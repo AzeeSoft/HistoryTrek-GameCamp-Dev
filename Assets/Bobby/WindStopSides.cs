@@ -6,8 +6,6 @@ public class WindStopSides : MonoBehaviour {
 
 	public bool one;
 	public bool two;
-	bool over1;
-	bool over2;
 
 	// Use this for initialization
 	void Start () {
@@ -26,16 +24,11 @@ public class WindStopSides : MonoBehaviour {
 			if (one == true) {
 				GetComponentInParent<WindStop> ().over1 = true;
 				GetComponentInParent<WindStop> ().DetectedWindPipe1 = col.gameObject;
-				over1 = true;
-
-		
 			}
 
 			if (two == true) {
 				GetComponentInParent<WindStop> ().over2 = true;
 				GetComponentInParent<WindStop> ().DetectedWindPipe2 = col.gameObject;
-				over2 = true;
-
 			}
 		}
 	}
@@ -44,15 +37,10 @@ public class WindStopSides : MonoBehaviour {
 		if (col.tag == "WindPipe") {
 			if (one == true) {
 				GetComponentInParent<WindStop> ().over1 = false;
-
-				over1 = false;
-
 			}
 
 			if (two == true) {
 				GetComponentInParent<WindStop> ().over2 = false;
-				over2 = false;
-
 			}
 		}
 

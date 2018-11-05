@@ -29,9 +29,6 @@ public class CharacterMovement : MonoBehaviour
     private PlayerInput playerInput = new PlayerInput();
     bool iswalking = false;
 
-    public bool useMobileInput = false;
-
-
     // Use this for initialization
     void Start()
     {
@@ -98,14 +95,5 @@ public class CharacterMovement : MonoBehaviour
         }
 
         //animator.SetBool ("Ground", Ground)
-    }
-
-    void OnCollisionEnter2D(Collision2D col)
-    {
-        if (col.gameObject.tag == "KillZone")
-        {
-            PM.Lives -= 1;
-            spawn.Respawn();
-        }
     }
 }

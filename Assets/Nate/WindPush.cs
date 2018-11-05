@@ -18,9 +18,9 @@ public class WindPush : MonoBehaviour {
 		
 	}
 	void OnTriggerEnter2D(Collider2D other){
-		if (other.tag == "Lightning") {
+		/*if (other.tag == "Lightning") {
 			Debug.Log ("Lost A Life");
-		}
+		}*/
 	}
 	void OnTriggerStay2D(Collider2D other){
 		if (other.tag == "WindPipe") {
@@ -29,7 +29,7 @@ public class WindPush : MonoBehaviour {
 	}
 	void OnTriggerExit2D(Collider2D other){
 		if (other.tag == "WindPipe") {
-			rb.velocity = new Vector2 (rb.velocity.x, rb.velocity.y - DecreaseSpeed);
+//			rb.velocity = new Vector2 (rb.velocity.x, rb.velocity.y - DecreaseSpeed);
 		}
 	}
 }

@@ -13,7 +13,9 @@ public class MainMenuManager : MonoBehaviour {
     public string SceneToStart;
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+	{
+	    Time.timeScale = 1;
 		CreditsImage.SetActive (false);
 	}
 	

@@ -28,11 +28,13 @@ public class GameManager : MonoBehaviour {
 
 
 	// Use this for initialization
-	void Start () 
+	void Start ()
 	{
 		Instance = this;
 
-		DeathScreen.SetActive (false);
+	    Time.timeScale = 1;
+
+        DeathScreen.SetActive (false);
 		WinScreen.SetActive (false);
 		PM.Lives = 3;
 
@@ -62,38 +64,33 @@ public class GameManager : MonoBehaviour {
 
 		if (Input.GetKeyDown("escape"))
 		{
-			QuitGame();
+			GoToMainMenu();
 		}
 				
 	}
 
 	void CheckLife ()
 	{
-		
 		if (PM.Lives == 0) 
 		{
-			DeathScreen.SetActive (true);
+            OnGameLost();
 		}
-
-		if (PM.Lives != 0) 
-		{
-			DeathScreen.SetActive (false);
-		}
-			
 	}
 
 	void CheckCollectibles()
 	{
+	    int collected = 0;
 		for (int i = 0; i < CollectiblesImages.Length; i++) {
-			if (CollectibleStatus [i]) {
-				WinScreen.SetActive (true);
+			if (CollectibleStatus [i])
+			{
+			    collected++;
 			}
-
-			if (!CollectibleStatus [i]) {
-				WinScreen.SetActive (false);
-			}
-
 		}
+
+	    if (collected == CollectiblesImages.Length)
+	    {
+            OnGameWon();
+	    }
 	}
 
 	public void UpdateLifeImages()
@@ -151,10 +148,22 @@ public class GameManager : MonoBehaviour {
 		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 	}
 
-	public void QuitGame()
+	public void GoToMainMenu()
 	{
-		Application.Quit ();
-	}
-	
+	    SceneManager.LoadScene("MainMenu");
+    }
 
+    void OnGameLost()
+    {
+        Time.timeScale = 0;
+
+        DeathScreen.SetActive(true);
+    }
+
+    void OnGameWon()
+    {
+        Time.timeScale = 0;
+
+        WinScreen.SetActive(true);
+    }
 }
