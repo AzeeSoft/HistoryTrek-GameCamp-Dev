@@ -10,6 +10,8 @@ public class MainMenuManager : MonoBehaviour {
 	public Image Credits;
 	public GameObject BackImage;
 
+    public string SceneToStart;
+
 	// Use this for initialization
 	void Start () {
 		CreditsImage.SetActive (false);
@@ -20,9 +22,10 @@ public class MainMenuManager : MonoBehaviour {
 		
 	}
 
-	public void StartGame() {
-		
-	}
+	public void StartGame()
+	{
+	    SceneManager.LoadScene(SceneToStart);
+    }
 
 	public void QuitGame() {
 		Application.Quit ();

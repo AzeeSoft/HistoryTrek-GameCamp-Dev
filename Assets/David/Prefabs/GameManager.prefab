@@ -71,9 +71,9 @@ MonoBehaviour:
   - {fileID: 21300000, guid: d58770d27133b5d4caa642e67bb5a06d, type: 3}
   - {fileID: 21300000, guid: 85ff9c99f4c644f89b59fd69f964ca5d, type: 3}
   disabledCollectibleSprite:
-  - {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 21300000, guid: 37ed63de78adb3343b704db8fd8fb379, type: 3}
+  - {fileID: 21300000, guid: e4217f24123fb2d49b67b2ebaf7841ac, type: 3}
+  - {fileID: 21300000, guid: bd88c4e06c0d24c44bcf245c3381457d, type: 3}
   enabledHealthSprite: {fileID: 21300000, guid: 56fbdbf976c0ae54094fe27927d25939,
     type: 3}
   disabledHealthSprite: {fileID: 21300000, guid: 131487c3112012941ac76f0dd76495c3,
